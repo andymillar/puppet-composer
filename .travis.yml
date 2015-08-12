@@ -15,7 +15,7 @@ env:
   - PUPPET_VERSION=3.3.2
   - PUPPET_VERSION=3.4.3
   - PUPPET_VERSION=3.6.2
-  - PUPPET_VERSION=3.7.3 FUTURE_PARSER="yes"
+  - PUPPET_VERSION=3.7.3 FUTURE_PARSER="yes" PARSER="future"
 matrix:
   allow_failures:
     - rvm: ruby-head
@@ -40,3 +40,4 @@ branches:
   only:
     - master
     - /^release.*$/
+    - futureparser
