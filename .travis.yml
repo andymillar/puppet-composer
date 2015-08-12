@@ -40,3 +40,5 @@ branches:
   only:
     - master
     - /^release.*$/
+    - nolegacytravis
+sudo: false
